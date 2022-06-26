@@ -1,4 +1,25 @@
 .App {
   text-align: center;
+  display: grid;
+  background-color: lawngreen;
+}
+img {
+  width: 150px;
+  border-radius: 50%;
+}
+.container {
+  background-color: coral;
+  width: 35%;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 20px;
   display: flex;
+}
+
+.card {
+  line-height: 0px;
+  margin: 5px 15px;
+}
+.data {
+  width: 100%;
 }
